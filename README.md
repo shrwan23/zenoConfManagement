@@ -2,6 +2,34 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
+---------
+<br/>
+
+### Confrence
+> Multiple tracks
+>> Sessions(morning & afternoon)
+>>> Multiple talks in each session
+
+<br/>
+
+
+### Time
+- Time in minutes
+- lightning means 5 mins
+
+<br/>
+
+## Improvement and Optimization
+- simple algo is done, however improvement and optimization can be done
+- we can short by sessionTime in desc order to for ease of query, and remove the one which are added
+- we can also start filling Afternoon Sessions first & morning sessions later, so it has filled up for 4 to 5hours bufore netwrking event, assuming we can have empty morning sesssions
+- we can use 2D filling algos for optimization
+
+
+<br/>
+
+----------------------
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
